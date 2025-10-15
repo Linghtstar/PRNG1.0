@@ -3,6 +3,8 @@
 
 本仓库开源的是一种基于多重深度动态变换（MDDT）的伪随机数发生器（PRNG）的FPGA实现思路与算法说明。该设计通过“轻算术 + 强置换”的策略，在较小位宽计算前提下实现每拍输出 96 bit 的高吞吐随机序列，核心包括两个状态子模块 `X1`/`X2` 与两个参数子模块 `P1`/`P2` 的耦合更新，以及输出异或掩码组合。
 
+相关论文：Li, S.; Lin, Z.; Yang, Y.; Ning, R. A High-Performance FPGA PRNG Based on Multiple Deep-Dynamic Transformations. Entropy 2024, 26, 671. https://doi.org/10.3390/e26080671
+
 > 说明：本 README 仅解释算法与接口思路，不提供综合/仿真/运行脚本。
 
 ---
