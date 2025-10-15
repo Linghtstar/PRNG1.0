@@ -1,0 +1,7 @@
+*.a filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.sdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.v filter=lfs diff=lfs merge=lfs -text
+*.mem filter=lfs diff=lfs merge=lfs -text
+*.reloc filter=lfs diff=lfs merge=lfs -text
